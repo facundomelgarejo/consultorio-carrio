@@ -1,0 +1,48 @@
+.input{
+    border-radius: 25px;
+    height: 35px;
+    border: none;
+    background-color: rgb(238, 238, 238);
+    width: 90%;
+    padding: 0 20px 0 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.input::placeholder{
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+    border: none;
+}
+
+.input:focus{
+    color: rgb(0, 0, 0);
+    outline: none
+} 
+
+
+/* .input{
+    border-radius: 10px;
+    border-color: #c7c7c7;
+
+    width: 80%;
+    padding: 5px 5px;
+    margin: 2px 0;
+    box-sizing: border-box;
+}  */
+
+.input-error{
+    border: 1px solid red;
+    color: red;
+
+
+    border-radius: 25px;
+    height: 35px;
+    
+    background-color: rgb(238, 238, 238);
+    width: 90%;
+    padding: 0 20px 0 20px;
+    margin-bottom: 10px;
+    outline: none;
+    box-sizing: border-box;
+}

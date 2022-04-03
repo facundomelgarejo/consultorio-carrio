@@ -1,0 +1,14 @@
+
+.label{
+    font-family: system;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.label-error{
+    
+    font-family: system;
+    font-size: 14px;
+    margin-left: 25%;
+}

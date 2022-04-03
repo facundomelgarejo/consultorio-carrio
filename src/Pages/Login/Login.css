@@ -1,0 +1,129 @@
+@media screen and (max-width: 1920px){
+    body{
+        height: 100vh;
+        background: linear-gradient( rgb(203, 222, 246), white);
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;   
+    }
+    .login-container{
+        background-color: white;
+        width: auto;
+        padding: 40px;
+        border-radius: 30px;
+    }
+    
+    .container-header{
+        padding-bottom: 15px;
+    }
+    
+    
+    .titulo-nombre{
+        display: flex;
+        margin-left: 70px;
+    
+        font-family: system;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    
+    .titulo-doctor{
+        text-align: left;
+        font-family: system;
+        font-size: 25px;
+        font-style: italic;
+    }
+    
+    .logo-diente{
+        width: 50px;
+        height: 50px;
+    }
+    
+    
+    .container-button{
+        text-align: center;
+    }
+    
+    .login-content{
+        margin-left: 10%;
+    }
+
+    .label-error{
+        font-family: system;
+        font-size: 5px;
+        padding-top: 0px;
+        color: red;
+    }
+}
+
+@media screen and (max-width: 420px){
+    body{
+        background: linear-gradient( rgb(255, 255, 255), white);
+        align-items:baseline; 
+        margin-top: 30px;
+    }
+
+    .login-container{
+        background-color: rgb(255, 255, 255);
+        width: auto;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+    .titulo-nombre{
+        display: flex;
+        margin-left: 50px;
+        text-align: center;
+        font-family: system;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    
+
+    .titulo-doctor{
+        text-align: center;
+        font-family: system;
+        font-size: 25px;
+        font-style: italic;
+    }
+
+    .logo-diente{
+        display: flex;
+        margin-left: 40%;
+        opacity: 0;
+        
+    }
+
+    .logo-style{
+        object-fit: 120px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 375px){
+
+    .titulo-nombre{
+        display: flex;
+        margin-left: 40px;
+        text-align: center;
+        font-family: system;
+        font-weight: bold;
+        font-size: 23px;
+    }
+    
+
+    .titulo-doctor{
+        text-align: center;
+        font-family: system;
+        font-size: 23px;
+        font-style: italic;
+    }
+}
+
+
