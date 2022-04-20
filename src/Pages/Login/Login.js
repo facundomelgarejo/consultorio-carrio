@@ -10,7 +10,7 @@ import Input from "../../Commons/Input/Input";
 import Button from "../../Commons/Button/button"
 
 const Login = () => {
-
+    
     const [user, setUser] = useState(''); //guardo el valor ingresado en usuario
     const [password, setPassword] = useState(''); //guardo el valor ingresado en password
     const [passwordError, setPasswordError] = useState (false);
@@ -55,6 +55,7 @@ const Login = () => {
     };
     
     return(
+        
         <div className="login-container">
             
             <div className="container-header">
@@ -110,6 +111,7 @@ const Login = () => {
             </div>
             
         </div>
+    
     )
 }
 
