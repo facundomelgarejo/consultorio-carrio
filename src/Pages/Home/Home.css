@@ -1,3 +1,56 @@
-.body{
-    background-color: blue;
+@media screen and (max-width: 1920px){
+    body{
+        height: 100vh;
+        background: white;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    .buttons{
+        transition-duration: 0.4s;
+        border: none;
+        border-radius: 5px;
+        height: 100px;
+        width: 200px;
+        
+        margin: 10px;
+        font-weight: bold;
+    }
+        
+    .buttons:hover {
+        background-color: rgb(71, 100, 163); 
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+
+        box-shadow: 10px 10px 8px #888888;
+    }
+
+    .conteiner-buttons{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+        /* 
+        position: absolute;
+        top: 25vh;
+        left: 50vh;
+        */
+    }
+
+    .conteiner-buttons-up{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 420px){
+}
+
+@media screen and (max-width: 375px){
+
 }
