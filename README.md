@@ -1,1 +1,1 @@
-Gestion de pacientes para consultorio privado (in process)
+Gestion de pacientes para consultorio privado (en proceso)
